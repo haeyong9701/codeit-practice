@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+.header {
+  background-color: #11172b;
+}
+
+.header-container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+#header-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.header-title {
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 12px 0;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.header-title-accent {
+  font-weight: 600;
+}
+
+.section-selected {
+  width: 640px;
+  margin : 0 auto;
+  margin-top: 40px;
+  padding: 24px 32px;
+  background-color: #ebeff8;
+  border-radius: 8px;
+}
+
+.depart-content {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+#depart-img {
+  width: 12px;
+  height: 12px;
+}
+
+.depart-title {
+  color: #b3bdd5;
+  margin-left: 10px;
+}
+
+.journy-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.depart-date {
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  background-color: white;
+}
+
+.journy-description {
+  font-size: 12px;
+  color: #b3bdd5;
+}
+
+.underline {
+  margin: 20px auto;
+  border: 1px dashed #b6bfd3;
+  width: 640px;
+}
+
+.section {
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 0 24px 48px;
+  width: 640px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.ticket-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #16bf97;
+  padding: 8px 0;
+}
+
+.underline-ticket {
+  border: 1px dashed #dbf1ec;
+  width: 640px;
+  margin-left: -24px;
+  margin-bottom: 26px;
+}
+
+.departure-arrival-text {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #b3bdd5;
+}
+
+.departure-arrival-contatiner {
+  margin-bottom: 4px;
+}
+
+.departure-time, .arrival-time {
+  font-weight: 700;
+  color: #1a345e;
+}
+
+#airplane-image {
+  margin: 0 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.flight {
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #b3bdd5;
+}
+
+.flight-list {
+  color: #0b1f66;
+}
+
+.nav {
+  display: inline-block;
+  float: right;
+}
+
+.nav-menu{
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a345e;
+  text-decoration: none;
+}
+
+.nav-menu:nth-child(2) {
+  margin: 0 24px;
+}
+
+.nav-menu.soldout {
+  color: #dce0e8;
+}
