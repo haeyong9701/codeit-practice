@@ -151,13 +151,18 @@ main {
   height: 239px;
 }
 
-.card.selected {
-  border-radius: 11px;
-  border: 2px solid var(--linkbrary-primary-color, #6d6afe);
-}
-
 .card-container {
   position: relative;
+}
+
+.image-boder {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  width: 217px;
+  height: 210px;
+  border-radius: 11px;
+  border: 3px solid #6d6afe;
 }
 
 .download-mark {
