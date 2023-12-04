@@ -60,19 +60,23 @@ div {
 
 @media (min-width: 992px) {
   #div2 {
+    width: 50%;
     height: 700px;
   }
 
   #div3 {
+    width: 50%;
     height: 350px;
   }
 
   #div4 {
+    width: 25%;
     height: 350px;
   }
 
   #div5,
   #div6 {
-    height: 180px;
+    width: 25%;
+    height: 175px;
   }
 }
