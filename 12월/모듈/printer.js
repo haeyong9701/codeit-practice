@@ -1,5 +1,7 @@
-export const title = "CodieitPrinter";
+const title = "CodieitPrinter";
 
-export function print(value) {
+function print(value) {
   console.log(value);
 }
+
+export { title as printerTitle, print };
